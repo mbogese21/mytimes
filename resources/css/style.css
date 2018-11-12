@@ -1,0 +1,30 @@
+/* Header */
+.container1{
+  display: inline-flex;
+  flex-direction: row;
+  font-family: Verdana;
+  font-size: 14px;
+  font-weight: bold;
+  width: 100%;
+}
+/*Logo*/
+.logo{
+color: MediumAquamarine;
+display: inline-flex;
+flex-direction:row;
+justify-content: space-around;
+
+}
+/* Navigation*/
+.navigation{
+  display: inline-flex;
+}
+.navigation {
+  color: black;
+}
+.navigation a:link{
+  color: black;
+}
+.navigation a:visited {
+  color: black;
+}
