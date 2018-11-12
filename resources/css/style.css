@@ -5,26 +5,37 @@
   font-family: Verdana;
   font-size: 14px;
   font-weight: bold;
+  border-bottom: thin solid black;
   width: 100%;
+  padding: 10px 10px;
+  justify-content: space-between;
 }
-/*Logo*/
-.logo{
-color: MediumAquamarine;
-display: inline-flex;
-flex-direction:row;
-justify-content: space-around;
-
-}
+  /*Logo*/
+    .logo{
+        color: MediumAquamarine;
+        display: inline-flex;
+        align-items: center;
+        padding-left: 20px;
+        }
+    .logo p{
+      padding:10px;
+    }
 /* Navigation*/
-.navigation{
-  display: inline-flex;
-}
-.navigation {
-  color: black;
-}
-.navigation a:link{
-  color: black;
-}
-.navigation a:visited {
-  color: black;
-}
+    .navigation{
+        display: inline-flex;
+        color: black;
+        align-items: center;
+        justify-content: space around;
+        padding: 0px 40px;
+        }
+    .navigation span{
+      display: inline-block;
+      padding: 15px;
+    }
+    .navigation a:link{
+        color: black;
+        }
+
+    .navigation a:visited {
+        color: black;
+        }
