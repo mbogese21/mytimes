@@ -1,6 +1,6 @@
 /* Header */
-.container1{
-  display: inline-flex;
+.container-header{
+  display: flex;
   flex-direction: row;
   font-family: Verdana;
   font-size: 14px;
@@ -39,3 +39,27 @@
     .navigation a:visited {
         color: black;
         }
+/* Content */
+.container-alpha{
+  border: thin solid black;
+  display:flex;
+  flex-direction: row;
+  margin: 10px;
+  justify-content: space-around;
+
+}
+.container-alpha div{
+  border: thin solid black;
+}
+.column-left{
+  width:630px;
+  display: inline-flex;
+  flex-direction: row;
+  flex-wrap:wrap;
+}
+.column-center{
+  width: 300px;
+}
+.column-right{
+  width: 240px;
+}
